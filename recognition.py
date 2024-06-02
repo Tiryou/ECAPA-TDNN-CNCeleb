@@ -100,7 +100,6 @@ def on_open(ws):
                     "audio": frame_base64
                 }
             }
-            
             ws.send(json.dumps(data))
             time.sleep(intervel)
         
